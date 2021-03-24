@@ -11,6 +11,8 @@
 |
 */
 
+//Route::get ('user','ManagementUserController@index');
+Route::resource('user','ManagementUserController');
 Route::get('/', function () {
     return view('welcome');
 });
