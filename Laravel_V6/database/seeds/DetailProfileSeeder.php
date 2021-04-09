@@ -13,13 +13,10 @@ class DetailProfileSeeder extends Seeder
     {
         //
         DB::table('detail_profile')->insert([
-            'id' => '6',
             'address' => 'Bondowoso',
-            'noHp' => '082xxxxxxx',
+            'noHp' => '082xxx',
             'ttl' => '2021-04-08',
             'foto' => 'picture.jpg',
-            'created_at' => 'tes',
-            'updated_at'=> 'ad'
         ]);
                
             
